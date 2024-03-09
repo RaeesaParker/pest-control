@@ -1,7 +1,7 @@
 import { Box, useBreakpointValue } from "@chakra-ui/react"
 
-import { MobileNavbar } from "../components/common/MobileNavbar";
 import { NavBar } from "../components/common/NavBar"
+import { Hero } from "../components/homepage/Hero";
 
 export const Homepage = () => {
   const isMobile = useBreakpointValue({ base: true, lg: false });
@@ -9,6 +9,9 @@ export const Homepage = () => {
   return (
     <Box>
       <NavBar />
+      <Box p="20">
+        <Hero />
+      </Box>
     </Box>
   )
 }

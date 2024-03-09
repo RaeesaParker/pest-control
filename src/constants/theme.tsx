@@ -9,8 +9,9 @@ export const theme = extendTheme({
 		},
 		tones:{
 			white:"#ffffff",
-			darkGrey:"#C2C2C2",
-			lightGrey:"#F5F5F5"
+			darkGrey:"#718096",
+			lightGrey:"#F5F5F5",
+			black:"#2D3748"
 		}
   },
   fonts: {
