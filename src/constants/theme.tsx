@@ -11,7 +11,8 @@ export const theme = extendTheme({
 			white:"#ffffff",
 			darkGrey:"#718096",
 			lightGrey:"#F5F5F5",
-			black:"#2D3748"
+			black:"#2D3748",
+			darkBlack:"#181818"
 		}
   },
   fonts: {

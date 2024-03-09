@@ -19,7 +19,6 @@ export const Hero = () => {
         flexDirection="column" 
         justifyContent="center"
         gap="10"
-        ml="10"
       >
         <Heading as="h1">JL Pest Control</Heading>
         <Text color="tones.darkGrey">{heroStrapLine} </Text>

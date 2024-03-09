@@ -1,17 +1,28 @@
-import { Box, useBreakpointValue } from "@chakra-ui/react"
+import { Box, Flex, useBreakpointValue } from "@chakra-ui/react"
 
 import { NavBar } from "../components/common/NavBar"
+import { Details } from "../components/homepage/Details";
 import { Hero } from "../components/homepage/Hero";
 
 export const Homepage = () => {
   const isMobile = useBreakpointValue({ base: true, lg: false });
 
   return (
-    <Box>
+    <Flex 
+      flexDirection="column" 
+      alignItems="center"  
+      gap= {isMobile ? "10vh" : "15vh"}
+    >
       <NavBar />
-      <Box p="20">
+      <Flex 
+        w="75%" 
+        flexDirection="column" 
+        gap= {isMobile ? "10vh" : "20vh"}
+        alignItems="center"
+      >
         <Hero />
-      </Box>
-    </Box>
+        <Details />
+      </Flex>
+    </Flex>
   )
 }
