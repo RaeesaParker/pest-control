@@ -50,3 +50,9 @@ export const testimonialThree= {
 }
 
 export const testimonials = [testimonialOne, testimonialTwo, testimonialThree]
+
+
+
+// -------------- ABOUT PAGE -----------
+export const heroStrapLineAbout = 
+  "Lorem ipsum dolor sit amet consectetur. In sit duis tellus nunc pulvinar. Dignissim auctor eget velit arcu. Eu et ultrices nec sed porta dui scelerisque mus. Lectus nec quis elit nisl ligula purus sed."

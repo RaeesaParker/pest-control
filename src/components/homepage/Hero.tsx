@@ -13,7 +13,6 @@ export const Hero = () => {
       justifyContent="space-between"
       alignItems="center"
       flexDirection={isMobile ? "column" : "row"}
-
     >
       <Flex 
         flexDirection="column" 
