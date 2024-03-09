@@ -1,11 +1,14 @@
-import { Box } from "@chakra-ui/react"
+import { Box, useBreakpointValue } from "@chakra-ui/react"
 
-import { DesktopNavbar } from "../components/common/DesktopNavbar"
+import { MobileNavbar } from "../components/common/MobileNavbar";
+import { NavBar } from "../components/common/NavBar"
 
 export const Homepage = () => {
+  const isMobile = useBreakpointValue({ base: true, lg: false });
+
   return (
     <Box>
-      <DesktopNavbar />
+      <NavBar />
     </Box>
   )
 }
