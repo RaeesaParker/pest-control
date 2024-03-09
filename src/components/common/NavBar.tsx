@@ -1,4 +1,4 @@
-import { Box, Flex, Image, Link, useBreakpointValue } from "@chakra-ui/react"
+import { Flex, Image, Link, useBreakpointValue } from "@chakra-ui/react"
 import { Link as ReactRouterLink } from "react-router-dom"
 
 import logo from '../../assets/logo.png'

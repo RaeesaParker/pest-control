@@ -10,8 +10,8 @@ export const theme = extendTheme({
 		},
 		tones:{
 			white:"#ffffff",
-			darkGrey:"#718096",
 			lightGrey:"#F5F5F5",
+			darkGrey:"#718096",
 			black:"#2D3748",
 			darkBlack:"#181818"
 		}

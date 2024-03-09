@@ -5,6 +5,7 @@ import { CallToAction } from "../components/homepage/CallToAction";
 import { Details } from "../components/homepage/Details";
 import { Hero } from "../components/homepage/Hero";
 import { Testimonals } from "../components/homepage/Testimonials";
+import { Footer } from "../components/common/Footer";
 
 export const Homepage = () => {
   const isMobile = useBreakpointValue({ base: true, lg: false });
@@ -28,6 +29,7 @@ export const Homepage = () => {
       </Flex>
       <CallToAction />
       <Testimonals />
+      <Footer />
     </Flex>
   )
 }
