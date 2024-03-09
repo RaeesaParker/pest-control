@@ -9,10 +9,10 @@ export const Hero = () => {
 
   return (
     <Flex 
-      gap="10"
+      gap={isMobile ? "24" : "10"}
       justifyContent="space-between"
       alignItems="center"
-      flexDirection={isMobile ? "column-reverse" : "row"}
+      flexDirection={isMobile ? "column" : "row"}
 
     >
       <Flex 

@@ -1,4 +1,4 @@
-// HOMEPAGE
+// -------------- HOMEPAGE -----------
 
 // HERO STRAPLINE 
 export const heroStrapLine = 
@@ -23,3 +23,11 @@ export const headingThree =
 
 export const detailThree = 
   "Facing a sudden pest problem? Count on JL Pest Control for prompt and effective one-off treatments. Our emergency services ensure rapid response and resolution to unexpected pest issues, offering a quick and efficient solution to protect your home or business. Trust us to be there when you need us the most."
+
+
+// CALL TO ACTION 
+export const callToActionHeading = 
+  "Ready to Reclaim Your Space?"
+
+export const callToActionText =
+  "Say goodbye to unwanted guests and hello to a pest-free environment. Contact JL Pest Control today for expert solutions tailored to your needs. Whether it's a one-time treatment or a regular contract, we've got you covered. Don't let pests take over—take control now.  "

@@ -9,7 +9,7 @@ export const NavBar = () => {
 
   return (
     <Flex 
-      w="100vw"
+      w="100%"
       bg="red.dark" 
       justifyContent="space-around" 
       alignItems="center" 

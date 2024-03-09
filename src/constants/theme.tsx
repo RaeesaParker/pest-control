@@ -4,7 +4,8 @@ export const theme = extendTheme({
   colors: {
 		red:{
 			dark: "#9B2C2C",
-      light: "#F56565"
+      light: "#F56565",
+			extraLight: "#f5baba",
 
 		},
 		tones:{

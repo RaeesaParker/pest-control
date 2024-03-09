@@ -1,6 +1,7 @@
 import { Box, Flex, useBreakpointValue } from "@chakra-ui/react"
 
 import { NavBar } from "../components/common/NavBar"
+import { CallToAction } from "../components/homepage/CallToAction";
 import { Details } from "../components/homepage/Details";
 import { Hero } from "../components/homepage/Hero";
 
@@ -14,6 +15,7 @@ export const Homepage = () => {
       gap= {isMobile ? "10vh" : "15vh"}
     >
       <NavBar />
+      
       <Flex 
         w="75%" 
         flexDirection="column" 
@@ -23,6 +25,7 @@ export const Homepage = () => {
         <Hero />
         <Details />
       </Flex>
+      <CallToAction />
     </Flex>
   )
 }
