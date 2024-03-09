@@ -11,6 +11,9 @@ export const Hero = () => {
     <Flex 
       gap="10"
       justifyContent="space-between"
+      alignItems="center"
+      flexDirection={isMobile ? "column-reverse" : "row"}
+
     >
       <Flex 
         flexDirection="column" 
@@ -37,7 +40,7 @@ export const Hero = () => {
       </Flex>
 
       <Box>
-        <Image src={HeroImage} w={isMobile ? "30vw" : "75vw"}/>
+        <Image src={HeroImage} w="75vw"/>
       </Box>
     </Flex>
   )
