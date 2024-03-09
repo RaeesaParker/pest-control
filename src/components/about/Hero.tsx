@@ -23,7 +23,7 @@ export const Hero = () => {
         gap="10"
         ml={isMobile ? "0" : "24"}
       >
-        <Heading as="h1">About</Heading>
+        <Heading as="h1" color="tones.darkBlack">About</Heading>
         <Text color="tones.darkGrey">{heroStrapLineAbout} </Text>
 
         <Link 

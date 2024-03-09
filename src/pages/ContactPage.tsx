@@ -1,7 +1,8 @@
-import { Box, Flex, useBreakpointValue } from "@chakra-ui/react"
+import {  Flex, useBreakpointValue } from "@chakra-ui/react"
 import {  NavBar } from "../components/common/NavBar"
-import { Hero } from "../components/about/Hero"
 import { Footer } from "../components/common/Footer"
+import { Hero } from "../components/contact/Hero";
+import { ContactForm } from "../components/contact/ContactForm";
 
 export const ContactPage = () => {
   const isMobile = useBreakpointValue({ base: true, lg: false });
@@ -10,17 +11,19 @@ export const ContactPage = () => {
     <Flex 
       flexDirection="column" 
       alignItems="center"  
-      gap= {isMobile ? "10vh" : "15vh"}
+      minH="100vh"
     >
       <NavBar />
-      
       <Flex 
-        w="75%" 
         flexDirection="column" 
-        gap= {isMobile ? "10vh" : "20vh"}
+        gap={isMobile ? "5" : "14" }
         alignItems="center"
+        justifyContent="center"
+        flex={1}
+        mb={isMobile ? "10vh" : "0"}
       >
         <Hero />
+        <ContactForm />
       </Flex>
       <Footer />
     </Flex>

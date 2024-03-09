@@ -8,7 +8,7 @@ export const Details = () => {
       {detailsArray.map((detail, index) => {
         return (
           <Flex gap="10" flexDirection="column" key={index}>
-          <Heading as="h2">{detail.title}</Heading>
+          <Heading as="h2" color="tones.darkBlack">{detail.title}</Heading>
           <Text color="tones.darkBlack">{detail.content}</Text>
           <Divider mt="7" mb="5" border="1px solid tones.darkGrey"/>
         </Flex>

@@ -56,3 +56,9 @@ export const testimonials = [testimonialOne, testimonialTwo, testimonialThree]
 // -------------- ABOUT PAGE -----------
 export const heroStrapLineAbout = 
   "Lorem ipsum dolor sit amet consectetur. In sit duis tellus nunc pulvinar. Dignissim auctor eget velit arcu. Eu et ultrices nec sed porta dui scelerisque mus. Lectus nec quis elit nisl ligula purus sed."
+
+
+
+// -------------- CONTACT PAGE ------------
+export const contactTagline = 
+"Say goodbye to pests with the personalized touch of JL Pest Control. If you're dealing with unwanted visitors, I'm here to help you reclaim your home or office. Contact me for a one-on-one consultation and let's create a targeted plan to evict pests and keep them out for good."
