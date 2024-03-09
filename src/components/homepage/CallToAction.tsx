@@ -1,10 +1,9 @@
-import { Button, Flex, Heading, Link, Text, useBreakpointValue } from "@chakra-ui/react"
+import { Button, Flex, Heading, Link, Text } from "@chakra-ui/react"
 import { Link as ReactRouterLink } from "react-router-dom"
 
 import { callToActionHeading, callToActionText } from "../../constants/content"
 
 export const CallToAction = () => {
-  const isMobile = useBreakpointValue({ base: true, lg: false });
 
   return ( 
     <Flex 

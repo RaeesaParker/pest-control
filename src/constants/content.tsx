@@ -31,3 +31,22 @@ export const callToActionHeading =
 
 export const callToActionText =
   "Say goodbye to unwanted guests and hello to a pest-free environment. Contact JL Pest Control today for expert solutions tailored to your needs. Whether it's a one-time treatment or a regular contract, we've got you covered. Don't let pests take over—take control now.  "
+
+
+// TESTIMONIALS 
+export const testimonialOne = {
+  company: "personA", 
+  testimonial:"As a business owner, maintaining a pest-free environment is crucial. JL Pest Control's regular contracts have been a game-changer. Their consistent and reliable service ensures our commercial space stays pest-free, allowing us to focus on what matters most—our business. Thank you for the peace of mind!"
+}
+
+export const testimonialTwo = {
+  company: "personB", 
+  testimonial:"As a business owner, maintaining a pest-free environment is crucial. JL Pest Control's regular contracts have been a game-changer. Their consistent and reliable service ensures our commercial space stays pest-free, allowing us to focus on what matters most—our business. Thank you for the peace of mind!"
+}
+
+export const testimonialThree= {
+  company: "personC", 
+  testimonial:"As a business owner, maintaining a pest-free environment is crucial. JL Pest Control's regular contracts have been a game-changer. Their consistent and reliable service ensures our commercial space stays pest-free, allowing us to focus on what matters most—our business. Thank you for the peace of mind!"
+}
+
+export const testimonials = [testimonialOne, testimonialTwo, testimonialThree]
