@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/pest-control/static/js/main.ab1ab68c.js",
+    "main.js": "/pest-control/static/js/main.d336c260.js",
     "static/media/homepage-image.png": "/pest-control/static/media/homepage-image.7f038d8ece589766c455.png",
     "static/media/about-image.png": "/pest-control/static/media/about-image.eb3144bc67ea4846abff.png",
     "static/media/quote.png": "/pest-control/static/media/quote.5ce5048a5ce3924fd4aa.png",
     "static/media/logo.png": "/pest-control/static/media/logo.6a16b6c67663b5096b4d.png",
     "index.html": "/pest-control/index.html",
-    "main.ab1ab68c.js.map": "/pest-control/static/js/main.ab1ab68c.js.map"
+    "main.d336c260.js.map": "/pest-control/static/js/main.d336c260.js.map"
   },
   "entrypoints": [
-    "static/js/main.ab1ab68c.js"
+    "static/js/main.d336c260.js"
   ]
 }
