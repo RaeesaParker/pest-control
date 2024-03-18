@@ -1,13 +1,13 @@
 import { Box } from '@chakra-ui/react';
 import { useMemo } from 'react';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 
 import { webRoutes } from "./routes";
 
 function App() {
 
   const router = useMemo(() => {
-		return createBrowserRouter([...webRoutes],);
+		return createHashRouter([...webRoutes],);
   }, []);
   
   return (
